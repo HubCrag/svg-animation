@@ -1,3 +1,3 @@
-# Svg Animation - Laptop
+# Svg Animation - Lines
 
 ## [Preview Demo](#)
