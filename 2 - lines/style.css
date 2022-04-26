@@ -1,0 +1,12 @@
+.BgAnimation {
+    background-color: transparent;
+    overflow: hidden;
+    width: 326px;
+    z-index: 0;
+}
+.BgAnimation__svg {
+    -webkit-clip-path: polygon(25% 3%,75% 3%,97% 28%,97% 75%,75% 97%,25% 97%,3% 75%,3% 25%);
+    clip-path: polygon(25% 3%,75% 3%,97% 28%,97% 75%,75% 97%,25% 97%,3% 75%,3% 25%);
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+
+.demo {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(8 13 24);
+}
