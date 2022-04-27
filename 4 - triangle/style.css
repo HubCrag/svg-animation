@@ -1,0 +1,31 @@
+.figure {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  animation: squareRotation 50s infinite linear both,
+    initialShow 1s 0.5s forwards;
+  opacity: 1;
+}
+.icon-figure {
+  stroke: #fff;
+}
+
+@keyframes squareRotation {
+  0% {
+    transform: rotate(13deg);
+  }
+  100% {
+    transform: rotate(373deg);
+  }
+}
+@keyframes initialShow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
